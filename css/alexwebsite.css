@@ -1,0 +1,70 @@
+body {
+	background-image: url(../image/background.jpg);
+}
+.header {
+	margin: auto;
+}
+.container {
+	width:60%;
+	margin: auto;
+}
+#logo {
+	font-style: italic;
+	color: #FFFFFF;
+	font-size: 95px;
+	padding-left: 20%;
+	
+}
+#border {
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	
+}
+#upperLinks {
+	font-size: 24px;
+	font-style: italic;
+}
+a{
+	color:#FFFFFF;
+	width:160px;
+	display:block;
+	text-decoration:none;
+}
+a:hover, a:active {
+	color:#FF0000;
+	text-decoration:none;
+}
+ul
+{
+	list-style-type:none;
+	overflow:hidden;
+	margin: 0;
+	padding: 0;
+	float:right;
+}
+li /* get the link to the left*/
+{
+	float:left;
+}
+.slider-wrapper { 
+	width: 80%; 
+	margin: 100px auto;
+	
+}
+
+
+.container #wrapper #bullshit { /* only for test*/
+	color: #FFFFFF;
+	font-size: 24px;
+}
+
+.footer #footerBorder {
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+}
+.container #outsideWrapper {
+	color: #FFFFFF;
+}
+
